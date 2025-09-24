@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">comvegaschoolst10385561</string>
+    <string name="subtraction">SUBTRACTION</string>
+    <string name="multiplication">MULTIPLICATION</string>
+    <string name="addition">ADDITION</string>
+    <string name="enter_the_second_number">Enter the Second Number</string>
+    <string name="division">DIVISION</string>
+    <string name="square_root">SQUARE ROOT</string>
+    <string name="power">POWER</string>
+    <string name="answer">ANSWER</string>
+    <string name="statistics_functions">STATISTICS FUNCTIONS</string>
+    <string name="enter_the_first_number">Enter the First Number</string>
+</resources>

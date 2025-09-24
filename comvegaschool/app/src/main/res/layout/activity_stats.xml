@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="35dp"
+    tools:context=".Stats">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:text="STATISTICS FUNCTIONS" />
+
+    <EditText
+        android:id="@+id/statNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter number"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal|numberSigned"
+        android:minHeight="50dp"
+        android:text=""
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Numbers stored in memory:" />
+
+    <TextView
+        android:id="@+id/monNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnClr"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR" />
+
+    <Button
+        android:id="@+id/btnAvg"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE AVERAGE" />
+
+    <Button
+        android:id="@+id/btnMinMax"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:text="FIND MIN AND MAX" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ANSWER:" />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="40sp" />
+</LinearLayout>
